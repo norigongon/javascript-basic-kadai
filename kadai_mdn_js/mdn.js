@@ -1,24 +1,15 @@
 const date = new Date();
 
 
-const year = () => {
-  console.log(date.getFullYear() + '年');
-}
+const year =
+  date.getFullYear() + '年';
 
-year();
+const month = 
+  date.getMonth() + 1 + '月';
 
-const month = () => {
-  console.log(date.getMonth() + 1 + '月');
-}
+const day = 
+  date.getDate() + '日';
 
-month();
-
-const day = () =>{
-  console.log(date.getDate() + '日');
-}
-
-day();
-
-
+console.log(year + month + day);
 
 
